@@ -1,0 +1,41 @@
+.list-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.tabItem {
+  color: #ffffff;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tabitem-highlight {
+  color: #fec653;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fec653;
+}
+
+@media screen and (min-width: 576px) {
+  .tabItem {
+    font-size: 20px;
+  }
+  .tabitem-highlight {
+    border-bottom: 3px solid #fec653;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tabItem {
+    font-size: 30px;
+  }
+  .tabitem-highlight {
+    border-bottom: 3px solid #fec653;
+    padding-bottom: 10px;
+  }
+}

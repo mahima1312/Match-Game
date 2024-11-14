@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+}
+
+.match-game-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.random-image {
+  height: 120px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .random-image {
+    height: 220px;
+    width: 440px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .random-image {
+    height: 400px;
+    width: 600px;
+  }
+  .match-game-container {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .random-image {
+    height: 450px;
+    width: 800px;
+  }
+}
+
+.tabs-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.thumbnail-images {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .thumbnail-images {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-images {
+    margin-top: 10px;
+  }
+}
